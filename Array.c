@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 int main()
 {  ///variables
   int id,pin,acc [3][2]={2222,4444,3333,6666,5555,2525};
@@ -12,15 +14,15 @@ int main()
   //checking accounts
   if(id==acc[0][0], pin==acc[0][1])
     {
-    printf("You're successfully logged in\n%d",id);
+    printf("You're successfully logged in\nID#: %d",id);
     }
     else if(id==acc[1][0], pin==acc[1][1])
     {
-    printf("You're successfully logged in%d",id);
+    printf("You're successfully logged inID#: %d",id);
     }
     else if(id==acc[2][0], pin==acc[2][1])
     {
-    printf("You're successfully logged in\n%d",id);
+    printf("You're successfully logged in\nID#: %d",id);
     }
     else
     
