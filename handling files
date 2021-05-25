@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{   int i=0, append[]; 
+    char section[][200];
+    
+    
+    File *onepiece;
+    
+    onepiece = fopen("C:\\text.txt","a");
+    
+    if(onepiece==NULL)
+    {
+        Printf("File doesn't Exist");
+        exit(0);
+    }
+    else 
+    Printf(Lines to append: ");
+    fgets(append,sizeof(append),stdin);
+    
+    append=i;
+    section[][i];
+     printf
+    
+    
+    
+    
+    
+    
+}
